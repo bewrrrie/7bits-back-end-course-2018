@@ -10,9 +10,17 @@ public class Main {
                 new Segment(3, 9, -16, 0),
                 new Segment(1, 2, 9, 0)
         };
+        double maxLength = 0d;
 
         for (Segment segment : segments) {
-            System.out.printf("Current segment length is %6f\n", segment.getLength());
+            double currentLength = segment.getLength();
+            if (currentLength > maxLength) {
+                maxLength = currentLength;
+            }
+
+            System.out.printf("Current segment length is %6f\n", currentLength);
         }
+
+        System.out.printf("Maximal length is %6f", maxLength);
     }
 }
