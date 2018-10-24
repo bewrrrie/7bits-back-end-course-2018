@@ -1,3 +1,9 @@
+Practice1/.idea/
+Practice1/target/
+
+Practice2/.idea/
+Practice2/target/
+
 *.iml
-target/
-.idea/
+*.class
+*.jar
