@@ -6,7 +6,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class PairSummaterTest {
-    private static PairSummater summater = new PairSummater();
+    private PairSummater summater = new PairSummater();
 
     @Test
     public void testSumSimple() throws ArraySummaterException {

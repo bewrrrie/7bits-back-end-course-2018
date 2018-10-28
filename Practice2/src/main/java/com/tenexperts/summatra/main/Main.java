@@ -23,14 +23,10 @@ final class Main {
         SimpleSummater summater = new SimpleSummater();
         int[] values = new int[args.length];
 
-        try {
-            for (int i = 0; i < args.length; i++) {
-                values[i] = Integer.parseInt(args[i]);
-            }
-
-            System.out.println(summater.sum(values));
-        } catch (NumberFormatException e) {
-            e.printStackTrace();
+        for (int i = 0; i < args.length; i++) {
+            values[i] = Integer.parseInt(args[i]);
         }
+
+        System.out.println(summater.sum(values));
     }
 }

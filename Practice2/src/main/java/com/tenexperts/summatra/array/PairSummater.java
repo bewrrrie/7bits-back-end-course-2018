@@ -26,8 +26,8 @@ public class PairSummater implements IArraySummater {
 
         int result = arr[0] + arr[1];
 
-        for (int i = 1; i < arr.length / 2; i++) {
-            int pairSum = arr[2 * i] + arr[2 * i + 1];
+        for (int i = 2; i < arr.length; i += 2) {
+            int pairSum = arr[i] + arr[i + 1];
 
             if (pairSum > result) {
                 result = pairSum;

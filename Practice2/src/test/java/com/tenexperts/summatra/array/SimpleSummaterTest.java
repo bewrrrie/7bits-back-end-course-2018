@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class SimpleSummaterTest {
-    private static SimpleSummater summater = new SimpleSummater();
+    private SimpleSummater summater = new SimpleSummater();
 
     @Test
     public void testSumSimple() {
