@@ -1,0 +1,8 @@
+.
+..
+Homework3.txt
+.idea
+pom.xml
+Practice3.iml
+src
+А ларчик просто открывался

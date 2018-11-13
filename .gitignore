@@ -4,6 +4,9 @@ Practice1/target/
 Practice2/.idea/
 Practice2/target/
 
+Practice3/.idea/
+Practice3/target/
+
 *.iml
 *.class
 *.jar
